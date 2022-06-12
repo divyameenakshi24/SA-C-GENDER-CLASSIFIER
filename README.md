@@ -1,16 +1,20 @@
 # SA-C-GENDER-CLASSIFIER
 # Algorithm
-1.
-2.
-3.
-4.
+1.To classify the gender of a person use the DeepFace library.
+2.DeepFace library is developed based on deep learning algorithms.
+3.Import the deepface class from DeepFace library, cv2 class from openCv2 library and Matplot library according to the requirements.
+4.Load and display the imported image.
+5.Pass the image to DeepFace library and analyze the image to predict gender of a person.
+6.This prediction is stored in result variable.
+7.Finally print the prediction using this algorithm.
+
 
 ## Program:
 ```
 /*
 Program to implement 
-Developed by   :
-RegisterNumber :  
+Developed by   : A.Divya Meenakshi
+RegisterNumber :  212220230014
 */
 ```
 
@@ -18,10 +22,29 @@ RegisterNumber :
 ```
 /*
 1. CODE :
-![SKILL ASSESSMENT OUTPUT](XXX.png)
+!pip install deepface
+from deepface import DeepFace
+import cv2
+import matplotlib.pyplot as plt
+img1=cv2.imread('girl1.jpg')
+plt.imshow(img1[:,:,::-1])
+plt.show()
+result=DeepFace.analyze(img1,actions=['gender'])
+print("Gender : ",result['gender'])
+img2=cv2.imread('boy1.jpg')
+plt.imshow(img2[:,:,::-1])
+plt.show()
+result=DeepFace.analyze(img2,actions=['gender'])
+print("Gender : ",result['gender'])
 
-2. DEMO VIDEO YOUTUBE LINK:
+![image](https://user-images.githubusercontent.com/75235402/173230766-39ee9f6e-99f1-4250-b37a-7a6d3643d5f5.png)
+![image](https://user-images.githubusercontent.com/75235402/173230824-70ffdfce-2685-4deb-9785-6267a11803fa.png)
 
 */
 ```
+
+2. DEMO VIDEO YOUTUBE LINK:
+ 
+https://youtu.be/9K5bMgWyQ8w
+
 
