@@ -1,12 +1,12 @@
 # SA-C-GENDER-CLASSIFIER
 # Algorithm
-1.To classify the gender of a person use the DeepFace library.
-2.DeepFace library is developed based on deep learning algorithms.
-3.Import the deepface class from DeepFace library, cv2 class from openCv2 library and Matplot library according to the requirements.
-4.Load and display the imported image.
-5.Pass the image to DeepFace library and analyze the image to predict gender of a person.
-6.This prediction is stored in result variable.
-7.Finally print the prediction using this algorithm.
+1.To classify the gender of a person use the DeepFace library. <br>
+2.DeepFace library is developed based on deep learning algorithms. <br>
+3.Import the deepface class from DeepFace library, cv2 class from openCv2 library and Matplot library according to the requirements. <br>
+4.Load and display the imported image. <br>
+5.Pass the image to DeepFace library and analyze the image to predict gender of a person. <br>
+6.This prediction is stored in result variable. <br>
+7.Finally print the prediction using this algorithm. <br>
 
 
 ## Program:
