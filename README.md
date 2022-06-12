@@ -38,7 +38,7 @@ result=DeepFace.analyze(img2,actions=['gender'])
 print("Gender : ",result['gender'])
 */
 ```
-# IMAGES
+### IMAGES
 ![image](https://user-images.githubusercontent.com/75235402/173230766-39ee9f6e-99f1-4250-b37a-7a6d3643d5f5.png)
 ![image](https://user-images.githubusercontent.com/75235402/173230824-70ffdfce-2685-4deb-9785-6267a11803fa.png)
 
